@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="home.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body style="padding:0px; margin:0px;background-color:#DCDCDC">
+<div id="header1">
+    <img id="stlogo" style="margin-top:0;margin-left:35px;margin-bottom:0;" src="stitchedLOGOedited.png" >
+    <!--<form style="position:absolute;display:inline;margin-left:2%;margin-top:1.5%;" id="search" method="get" action="#">
+      <input style="border-top:none;border-left:none;border-right:none;border-bottom:1px solid #c1d804;" type="text" name="search" placeholder="Search  our  website!" >
+      <button style="margin:0px;padding:0px;border:none;background-color:white;"><img style="margin:0px;padding:0px;" width="25" height="20" src="searchedited.png"></button>
+    </form>-->
+
+      <a id="menubtn1" onmouseover="drop()" onmouseout="dropgo()">  <img id="menuimg" src="menu.png"> </a>
+
+    <ul id="menu"  style="margin:0px;height:100%;">
+      <li id="li1"><a href="#">Contact Us</a></li>
+      <li id="li1"><a href="#">Pet Friends</a></li>
+      <li id="li1"><a href="#">Look Book</a></li>
+      <li id="li1"><a href="#">Why Vegan</a></li>
+      <li id="li1"><a href="aboutus.html">About Us</a></li>
+  <!--    <li class="dropdown">
+        <a href="#" class="dropbtn">Topics</a>
+        <div class="dropdown-content">
+          <a href="#">Fashion</a>
+          <a href="#">Beauty</a>
+          <a href="#">Lifestyle</a>
+          <a href="#">Travel</a>
+          <a href="#">Food</a>
+        </div>
+      </li> -->
+      <li id="li1" class="active"><a  href="#">Home</a></li>
+    </ul>
+
+  <!--  <hr id="hrg" size="1">
+    <hr id="hrl" size="1"> -->
+    <hr class="colored" />
+</div>
+
+<img id="logo" src="FINAL LOGO.png" >
+<div id="wall">
+    <img class="bricks" src="images.jpg" >
+    <img class="model" src="model.jpeg">
+    <p id="sassy1"> sassy</p>
+    <p id="tagline1">tagline</p>
+</div>
+<div id="dropmenudiv">
+  <ul id="dropmenu" onmouseover="drop()" onmouseout="dropgo()" onclick="drop()">
+    <li id="li2" class="active"><a href="#">Home</a></li>
+    <li id="li2"><a href="aboutus.html">About Us</a></li>
+    <li id="li2"><a href="#">Why Vegan</a></li>
+    <li id="li2"><a href="#">Look Book</a></li>
+    <li id="li2"><a href="#">Pet Friends</a></li>
+    <li id="li2"><a  href="#">Contact Us</a></li>
+  </ul>
+</div>
+<div id="footer1">
+  <a href="https://www.facebook.com/TheVeganWardrobe/" class="fa fa-facebook"></a>
+  <a href="#" class="fa fa-twitter"></a>
+  <a href="https://www.instagram.com/theveganwardrobe" class="fa fa-instagram"></a>
+  <a href="#" class="fa fa-snapchat-ghost"></a>
+</div>
+<script>
+function drop() {
+    document.getElementById("dropmenu").style.display = "block";
+}
+function dropgo() {
+    document.getElementById("dropmenu").style.display = "none";
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,359 @@
+@font-face
+{
+font-family: Californian_FB;
+src: url('californian-fb.ttf');
+}
+#menu {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    position: relative;
+    top: 0px;
+    width: 46.5%;
+    height: 100%;
+    float:right;
+}
+#menubtn1{
+  padding:0;
+  border: 0px solid white;
+  top:0px;
+  right:5px;
+  display: none;
+}
+#menuimg{
+  height:90%;
+  position: absolute;
+  top:0px;
+  right:5px;
+}
+
+@media (max-width:1000px) {
+#menu {
+    display: none;
+    height: 100%; /*The width is 100%, when the viewport is 800px or smaller*/
+  }
+#menubtn1{
+  display: block;
+}
+}
+#stlogo{
+  width:18%;
+   height:41px;
+}
+@media (max-width:800px) {
+  #stlogo{
+    width:25%;
+     height:35px;
+  }
+}
+@media (max-width:600px) {
+  #stlogo{
+    width:30%;
+     height:30px;
+  }
+}
+#li1 {
+
+    float: right;
+    margin: 0px;
+    padding-left:4px;
+    padding-right:4px;
+    padding-top: 9px;
+    padding-bottom: 9.5px;
+    font-family:Californian_FB;
+    font-size:1.2vw;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    color:black;
+    padding: 0px 8px;
+    text-decoration: none;
+
+}
+li :hover:not(.active) {
+  text-decoration:none;
+  color:gray;
+
+}
+.active{
+  background-color: LightGray;
+}
+
+
+#icons {
+  margin-bottom:4%;
+  margin-left:3%;
+}
+input {
+  font-family:Californian_FB;
+  font-size:15px;
+}
+#dropmenu{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+  border: 1px solid lightgray;
+  overflow: hidden;
+  position: absolute;
+  top:0px;
+  right:0;
+  width: 100px;
+  z-index: 100;
+  display: none;
+}
+#dropmenudiv{
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  top:30px;
+  right:0;
+  z-index: 100;
+  width: 100px;
+}
+#li2{
+  border: 1px solid lightgray;
+  padding:2px;
+}
+#header1 {
+  background-color:white;
+  width:100%;
+  padding:0px;
+  margin-bottom: 0;
+  position:fixed;
+  z-index: 100;
+}
+#footer1 {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index:100;
+    background-color:#282828;
+    color: white;
+    text-align: left;
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.9;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+hr.colored {
+  border: 0;   /* in order to override TWBS stylesheet */
+  height: 3px;
+  padding:0px;
+  margin:0px;
+  width:100%;
+  background: -moz-linear-gradient(left, #c1d804 0%,#c1d804 48%, #cda1c4 50%, #cda1c4 100%);  /* FF3.6+ */
+  background: -webkit-linear-gradient(left, #c1d804 0%, #c1d804 45%, #cda1c4 50%, #cda1c4 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, #c1d804 0%,#c1d804 48%, #cda1c4 50%,  #cda1c4 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, #c1d804 0%,#c1d804 48%, #cda1c4 50%,  #cda1c4 100%); /* IE10+ */
+  background: linear-gradient(to right, #c1d804 0%,#c1d804 48%, #cda1c4 50%,  #cda1c4 100%); /* W3C */
+}
+#logo {
+  margin-left:47%;
+  position:fixed;
+  top:3px;
+  width:85px;
+  height:85px;
+  z-index: 100;
+}
+@media (max-width:600px) {
+  #logo{
+    margin-left:45%;
+    position:fixed;
+    top:3px;
+    width:55px;
+    height:55px;
+    z-index: 100;
+  }
+}
+
+#wall{
+  width:100%;
+  height:300px;
+  top:44px;
+  border-bottom: 5px solid gray;
+  position:relative;
+}
+@media (max-width:800px) {
+  #wall{
+    width:100%;
+    height:300px;
+    top:20px;
+    border-bottom: 5px solid gray;
+    position:relative;
+  }
+}
+.bricks {
+  width:100%;
+  height: 295px;
+  position: absolute;
+  z-index: 50;
+  opacity:0.7;
+}
+.model{
+  border:5px solid white;
+  width:20%;
+  height:70%;
+  top:50px;
+  left:60%;
+  z-index:90;
+  position:absolute;
+}
+#tagline1{
+  position:absolute;
+  z-index:90;
+  top:120px;
+  left: 35%;
+  font-size: 5vw;
+  font-style: italic;
+  color:#c1d804;
+}
+
+#sassy1{
+  position:absolute;
+  z-index:90;
+  top:60px;
+  left: 30%;
+  font-size: 5vw;
+  font-style: italic;
+  color:#cda1c4;
+}
+@media (max-width:600px) {
+  #tagline1{
+    position:absolute;
+    z-index:90;
+    top:120px;
+    left: 25%;
+    font-size: 8vw;
+    font-weight: bold;
+    font-style: italic;
+    color:#c1d804;
+  }
+  #sassy1{
+    position:absolute;
+    z-index:90;
+    top:70px;
+    left: 20%;
+    font-size: 8vw;
+    font-weight: bold;
+    font-style: italic;
+    color:#cda1c4;
+  }
+  .model{
+    border:5px solid white;
+    width:30%;
+    height:70%;
+    top:50px;
+    left:55%;
+    z-index:90;
+    position:absolute;
+  }
+}
+.us{
+  top:80px;
+  position:absolute;
+  width:100%;
+}
+#abtus{
+  text-align:center;
+  font-size: 36px;
+}
+#abtusimg{
+  margin-left:10px;
+  border:2px solid white;
+  height:50%;
+  width:70%;
+}
+@media (max-width:1200px) {
+  #abtusimg{
+    margin-left:10px;
+    margin-top: 20px;
+    border:2px solid white;
+    height:70%;
+    width:90%;
+  }
+}
+@media (max-width:1000px) {
+  #abtusimg{
+    margin-left:10px;
+    margin-top: 20px;
+    border:2px solid white;
+    height:90%;
+    width:120%;
+  }
+}
+@media (max-width:770px) {
+  #abtusimg{
+    margin-left:10px;
+    margin-top: 20px;
+    border:2px solid white;
+    height:40%;
+    width:60%;
+  }
+}
+#abttheblog{
+  text-align: right;
+  font-family:Californian_FB;
+  font-size:17px;
+}
+@media (max-width:600px) {
+  #abttheblog{
+    text-align: justify;
+    font-family:Californian_FB;
+    font-size:17px;
+  }
+}
+@media (max-width:750px) {
+  .col-sm-6{
+    border-left:2px solid #cda1c4;
+  }
+}
+#textdiv{
+  width:40%;
+  position: absolute;
+  top:35%;
+  right:45%;
+  overflow: hidden;
+}
+#abtcreators{
+  background-color: white;
+  position:absolute;
+  width:100%;
+  height:500px;
+  bottom:40px;
+
+}
